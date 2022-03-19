@@ -2,141 +2,21 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,800">
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-                list-style: none;
-                text-decoration: none;
-            }
-
-            #header{
-                width: 100%;
-                height: 70px;
-                display: block;
-                background-color: #101010;
-
-            }
-
-            #inner_header{
-                width: 90%;
-                height: 100%;
-                display: block;
-                margin: 0 auto;
-            }
-
-            #logo_container{
-                height: 100%;
-                display: table;
-                float: left;
-            }
-
-            #logo_container h1{
-            color: white;
-            height: 100%;
-            display: table-cell;
-            vertical-align: middle;
-            font-family: 'Montserrat';
-            font-size: 32px;
-            font-weight: 200;
-            }
-
-            #logo_container h1 span{
-                font-weight: 800;
-            }
-
-            #navigation{
-                float: right;
-                height: 100%;
-            }
-
-            #navigation a{
-                height: 100%;
-                display: table;
-                float: left;
-                padding: 0px 20px;
-            }
-
-            #navigation a:last-child{
-                padding-right: 0;
-            }
-
-            #navigation a li{
-                display: table-cell;
-                vertical-align: middle;
-                height: 100%;
-                color: white;
-                font-family: 'Montserrat';
-                font-size: 16px;
-                cursor: pointer;
-            }
-
-            #loading_div{
-                z-index: 9;
-                width: 100%;
-                height: 100%;
-                display: block;
-                position: fixed;
-                background-color: white;
-            }
-
-            #home_div{
-                width: 100%;
-                height: 100%;
-                display: block;
-                position: fixed;
-                background-color: rgb(44, 44, 44);
-                font-family: 'Montserrat';
-            }
-
-            #title_div {
-                margin-top: 20px;
-                text-align: center;
-                vertical-align: middle;
-                font-size: 24px;
-                color:  white;
-            }
-
-            #par_div {
-                margin: 20px auto;
-                width: 60%;
-                text-align: center;
-                vertical-align: middle;
-                font-size: 16px;
-                color:  white;
-                line-height: 150%;
-            }
-
-            #iframe_div{
-                width: 100%;
-                height: 100%;
-                display: block;
-                position: fixed;
-                background-color: white;
-            }
-
-            #main_iframe{
-                position: fixed; 
-                width: 100%; 
-                height: 100%;
-
-                
-            }
-
-
-        </style>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <title id="title">Google Classroom</title>
     </head>
 
     <body>
-        <div id="loading_div">
+        <div style="display: none;" id="loading_div">
             <p>Injecting...</p>
         </div>
         <div id="header">
             <div id="inner_header">
                 <div id="logo_container">
                     <h1>BRUTE<span>FORCE</span></h1>
+                    <p>v.1.0.2</p>
                 </div>
+
 
                 <ul id="navigation">
                     <a id="homebtn"><li>Home</li></a>
@@ -148,12 +28,12 @@
             </div>
         </div>
 
-        <div id="home_div">
+        <div style="display: block;" id="home_div">
             <div id="title_div">
                 <h1>Freedom simplified</h1>
             </div>
             <div id="par_div">
-                <p>Brute Force was developed with privacy in mind. Long gone are the worries of being monitored. Theres a lot to offer here, from advanced bypass methods to script secruity, with much more coming soon. Brute Force and Brute Force service(s) are currently in beta. Exspect downtimes and/or bugs to appear. This isn't perfect, so take caution while using it. Now click one of the websites in the header and enjoy your freedom :)</p>
+                <p>Brute Force was developed with privacy in mind. Long gone are the worries of being monitored. Theres a lot to offer here, from advanced bypass methods to script secruity, with much more coming soon. Brute Force and Brute Force service(s) are currently in beta. Expect downtimes and/or bugs to appear. This isn't perfect, so take caution while using it. Now click one of the websites above and enjoy your freedom :)</p>
                 <br>
                 <p>Created by yo mama ;)</p>
             </div>
@@ -162,6 +42,9 @@
 
         <div style="display: none;" id="iframe_div">
             <iframe src="https://bing.com" frameborder="0" id="main_iframe"></iframe>
+            <div id="fullscreenbtn_div">
+                <input id="fullscreenbtn" type="image" src="https://raw.githubusercontent.com/hithisiscrazy/dude/main/images/fsbtn.png" />
+            </div>
         </div>
 
 

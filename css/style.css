@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#header{
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-color: #101010;
+
+}
+
+#inner_header{
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+#logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+
+#logo_container h1 span{
+    font-weight: 800;
+}
+
+#logo_container p{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: bottom;
+    padding-bottom: 20px;
+    padding-left: 3px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#navigation{
+    float: right;
+    height: 100%;
+}
+
+#navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+#navigation a:last-child{
+    padding-right: 0;
+}
+
+#navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+#loading_div{
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    background-color: white;
+}
+
+#home_div{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    background-color: rgb(44, 44, 44);
+    font-family: 'Montserrat';
+}
+
+#title_div {
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    color:  white;
+}
+
+#par_div {
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+    color:  white;
+    line-height: 150%;
+}
+
+#iframe_div{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    background-color: white;
+}
+
+#main_iframe{
+
+    width: 100%; 
+    height: 100%;
+
+    
+}
+
+#fullscreenbtn_div{
+    z-index: 2;
+    
+    background: url("https://upload.wikimedia.org/wikipedia/commons/d/d3/Black_%2850%25_transparent%29.png");
+    position: absolute;
+    
+    bottom: 80px;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    margin-right: 40px;
+    opacity: .2;
+    border-radius: 3px;
+}
+
+#fullscreenbtn_div:hover{
+    opacity: .7;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+}
+
+
+#fullscreenbtn_div input{
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    opacity: 1;
+}
+
