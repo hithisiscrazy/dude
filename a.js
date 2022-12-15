@@ -1,1 +1,0 @@
-alert("This service has been disabled and moved due to security issues and because someone snitched. This is an invite only service, meaning you will be asked to join, not vice-versa")
